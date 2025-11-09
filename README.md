@@ -82,6 +82,7 @@ python eval_davis.py \
 --k 24 \
 --t 90 \
 --cd \
+--ensemble_size 8 \
 --output_dir ./results/ft_24_t_90_960_cd_final/
 ```
 
