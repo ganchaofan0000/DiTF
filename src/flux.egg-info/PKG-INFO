@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: flux
+Version: 0.0.0.post1+g8726236aa
+Summary: Inference codebase for FLUX
+Author-email: Black Forest Labs <support@blackforestlabs.ai>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision
+Requires-Dist: einops
+Requires-Dist: fire>=0.6.0
+Requires-Dist: huggingface-hub
+Requires-Dist: safetensors
+Requires-Dist: sentencepiece
+Requires-Dist: transformers
+Requires-Dist: tokenizers
+Requires-Dist: protobuf
+Requires-Dist: requests
+Requires-Dist: invisible-watermark
+Provides-Extra: streamlit
+Requires-Dist: streamlit; extra == "streamlit"
+Requires-Dist: streamlit-keyup; extra == "streamlit"
+Provides-Extra: gradio
+Requires-Dist: gradio; extra == "gradio"
+Provides-Extra: all
+Requires-Dist: flux[streamlit]; extra == "all"
+Requires-Dist: flux[gradio]; extra == "all"
+
+# DiTF
+Employing pretrained DiTs as Universal Feature Extractor 
