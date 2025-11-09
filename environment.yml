@@ -1,4 +1,4 @@
-name: flux
+name: DiTF
 channels:
   - defaults
 dependencies:
