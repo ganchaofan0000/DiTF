@@ -1,6 +1,7 @@
 # Diffusin Transformer Features (DiTF)
-In this paper, we investigate how pretrained **Diffusion Transformers (DiTs)** can be effectively employed as **universal feature extractors**.  
-Importantly, we reveal and analyze the impact of **Massive Activations (MAs)** in DiTs on **representation learning**.
+In this paper, we investigate how pretrained **Diffusion Transformers (DiTs)** can be effectively employed as **universal feature extractors**. Importantly, we reveal and analyze the impact of **AdaLN** in DiTs on **representation learning**.
+
+Finally, we propose a training-free **AdaLN-based** framework that extracts semantically discriminative features from DiTs.
 
 ### [Project Page](https://arxiv.org/pdf/2505.18584?) | [Paper](https://arxiv.org/pdf/2505.18584?)
 
