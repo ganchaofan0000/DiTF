@@ -94,6 +94,11 @@ python $HOME/davis2017-evaluation/evaluation_method.py \
     --davis_path /mnt/nvme0n1/chaofan/dataset/davis17/
 ```
 
+Here is the clarification for the Temporal Correspondence experiments:
+- Input image size: We adopt an input resolution of 960, whereas the SD-based DIFT uses 480. This ensures that both models maintain comparable feature resolutions (480 / 8 for DIFT and 960 / 16 for our DiT-based DiTF).
+
+- Hyperparameters: Our primary goal is to investigate the intrinsic representation learning capability of DiTs rather than to optimize task-specific performance. Therefore, we did not conduct an exhaustive hyperparameter search. Improved results on DAVIS can be easily achieved by adjusting settings such as ensemble_size = 8, top-k, or the temperature hyperparameter.
+
 ## Citation
 If you find our code or paper useful to your research work, please consider citing our work using the following bibtex:
 ```
