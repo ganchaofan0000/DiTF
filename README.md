@@ -113,4 +113,4 @@ If you find our code or paper useful to your research work, please consider citi
 ```
 
 ## Acknowledgement
-- We thank all authors of SD-based Diffusion feature extractor [DIFT](https://arxiv.org/pdf/2505.18584?) for presenting such an excellent work.
+- We thank all authors of SD-based Diffusion feature extractor [DIFT](https://diffusionfeatures.github.io/) for presenting such an excellent work.
