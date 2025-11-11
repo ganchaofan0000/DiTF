@@ -3,11 +3,11 @@ In this paper, we investigate how pretrained **Diffusion Transformers (DiTs)** c
 
 Finally, we propose a training-free **AdaLN-based** framework that extracts semantically discriminative features from DiTs.
 
-### [Project Page](https://arxiv.org/pdf/2505.18584?) | [Paper](https://arxiv.org/pdf/2505.18584?)
+### [Project Page](https://arxiv.org/pdf/2505.18584) | [Paper](https://arxiv.org/pdf/2505.18584)
 
 ## Links
 You are welcomed to check a series of works from our group on Diffusion Transformers as listed below:
-- 🚀 <u>[DG](https://arxiv.org/pdf/2510.11538?)</u> [ARXIV'25]: Detail Guidance for DiTs! [[Paper](https://arxiv.org/pdf/2510.11538?)] [[Project](https://ganchaofan0000.github.io/project_dg/)]
+- 🚀 <u>[DG](https://arxiv.org/pdf/2510.11538)</u> [ARXIV'25]: Detail Guidance for DiTs! [[Paper](https://arxiv.org/pdf/2510.11538)] [[Project](https://ganchaofan0000.github.io/project_dg/)]
 
 ## Prerequisites
 Python environment:
